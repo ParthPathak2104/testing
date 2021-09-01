@@ -1,0 +1,115 @@
+.bara{
+    height:300px;
+    /*background-image:linear-gradient(to right,#360167,#6B0772,#AF1281,#CF268A,#E65C9C,#FB8CAB);*/
+    /*background-image: linear-gradient(to right,#000B18,#00172D,#00264D,#02386E,#00498D,#0052A2);*/
+    /*background-image: linear-gradient(to right,#552586,#6A359C,#804FB3,#9969C7,#B589D6);*/
+    /*background-image: linear-gradient(to right,#000B18,#022647,#033669,#054a8f,#0665be);*/
+    /*background-image: linear-gradient(to right,#FED8F7,#FFECFB,#FFFFFC,#DDE8FF,#C4DDFE);*/
+    /*background-image: linear-gradient(to right,#08286d,#0e2e9f,	#305fb0,#4fb0b8,#99d2e3);*/
+    /*background-image: linear-gradient(to right,black,#06343d,#0b4753,#0d5d6d,#228497,#51afc2,#caf0f8);*/
+    /*background-image: linear-gradient(to right,black,#caf0f8);*/
+    background-color: #80cee1;
+    width:100%;
+    /*margin-top:10px;*/
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+}
+#lineFont{
+    font-size:15px;
+    margin-top:0px;
+}
+.pageName{
+    font-size:40px;
+    color:white;
+    display:block;
+    margin-left:2%;/*check  this*/
+    margin-top:50px;
+}
+#displayArea{
+    height:max-content;
+    box-shadow:0 0 20px #d3d3d3;
+    box-sizing: border-box;
+    border-radius:10px;
+    margin-top:-100px;
+    background-color: white;
+}
+
+/* css for tag heading */
+#tagHeading{
+    text-align:center;   
+    font-size:30px;
+}
+/* css for taggedpost section */
+#tagRow{
+    margin-bottom:25px;
+    box-sizing: border-box;
+}
+#tagInfo{
+    text-align:center;
+    font-size:13px;
+}
+/* testing designs */
+.tagCol{
+    height:200px;
+    border:solid 1px black;
+    box-sizing: border-box;
+    border-radius:10px;
+    background-color:#D8DDFE;
+}
+#TagCol{
+    display: flex;
+    overflow-x:auto;
+    border:solid 1px black;
+    box-sizing: border-box;
+}
+.box{
+    height:200px;
+    border:solid 1px black;
+    box-sizing: border-box;
+    min-width:200px;
+    margin-right:3px;
+}
+
+#postCol{
+    border:Solid 1px black;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+#abc{
+    overflow-x: auto;
+}
+.efg{
+    height:200px;
+    border:Solid 1px black;
+    box-sizing: border-box;
+}
+/* testing ends here */
+/* this is the css for the tag post box */
+/* css for image post section */
+.imgPost{
+    height:500px;/* do max content */
+    border:solid 1px black;
+    box-sizing: border-box;
+    border-radius:10px;
+    background-color: #FCF9F2;
+}
+/* css for stock price section */
+.stockPrice{
+    height:500px;/* do max content */
+    border:solid 1px black;
+    box-sizing: border-box;
+    border-radius:10px;
+    background-color: #F8E2DF;
+}
+
+
+.headings{
+    font-size:17px;
+    box-sizing: border-box;
+    text-align:center;
+}
+.a{
+    height:30px;
+}

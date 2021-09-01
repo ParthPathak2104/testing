@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="simple-grid1.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        #navbar{
+            height:50px;
+            background:#caf0f8;
+            position:fixed;
+            bottom:3px;
+            display:flex;
+            align-items: center;
+            border-radius:30px;
+        }
+        .col-1,.col-5,.col-6{
+           
+            height:30px;
+        }
+        .a{
+            display:flex;
+            align-items: center;
+            justify-content:center;
+        }
+        #logo,#feed,#chat,#dashboard,#coin{
+            margin-right:0.5%;
+            margin-left:0.5%;
+        }
+        #settings{
+            margin-left:20%;
+            margin-right:0.5%;
+        }
+        #logout{
+            margin-left:0.5%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="navbar">
+        <div class="row">
+            <a link="a.html" class="col-1 col-2-sm x a" id="logo"><span class="material-icons md-36">stream</span></a>
+            <a link="a.html" class="col-1 col-1-sm y a" id="feed"><span class="material-icons md-24 md-lights ">waves</span></a>
+            <a link="a.html" class="col-1 col-1-sm y a" id="chat"><span class="material-icons md-24 md-lights ">textsms</span></a>
+            <a link="a.html" class="col-1 col-1-sm y a" id="dashboard"><span class="material-icons md-24 md-lights ">account_box</span></a>
+            <a link="a.html" class="col-1 col-1-sm y a" id="coin"><span class="material-icons md-24 md-lights ">paid</span></a>
+            <input type="search" name="searchBar" class="col-5 hidden-sm a input" placeholder="Search" id="searchBar">
+            <a link="a.html" class="col-1 col-1-sm z a" id="settings"><span class="material-icons md-24 md-lights">settings</span></a>
+            <a link="a.html" class="col-1 col-1-sm z a" id="logout"><span class="material-icons md-24 md-lights ">logout</span></a>
+        </div>
+    </div>
+</body>
+</html>
