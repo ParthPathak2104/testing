@@ -1,3 +1,48 @@
+/* remember that classes are read one by one so if we give some value to a class on top of the page 
+and it contradicts something at the bottom of the page the bottom one will be followed */
+
+/*common styleing */
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border:none;
+}
+.button:hover{
+    border-bottom:solid 2px white;
+    box-sizing: border-box;
+}
+.margin{
+    margin-left:2%;
+}
+.margins{
+    margin-right:10%;
+}
+
+.links:link{
+    color:white;
+    text-decoration:none;
+}
+.links:hover{
+    color:white;
+    text-decoration: underline;
+}
+/*display classes for media queries */
+/* these are display class for >960 px*/
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.none{
+    display:none;
+}
+
+
+/* ends here  */
+
+/* what all needs to be shown all th time */
 .navbar{
     width:100%;
     height:45px;
@@ -11,7 +56,8 @@
     right:0px;
     z-index:10;
 }
-
+/* ends here */
+/* what needs to be shown above 960px */
 #searchBar{
     width:300px;
     height:25px;
@@ -25,37 +71,16 @@
     border:none;
     border-radius:0 4px 4px 0;
 }
-.button{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    border:none;
-}
-.button:hover{
-    border-bottom:solid 2px white;
-    box-sizing: border-box;
-}
 
-.margin{
-    margin-left:2%;
-}
 .rightb{
-    display:flex;
     flex-direction:row;
-    align-items: center;
-    justify-content: center;
     position:absolute;
     right:3%;
 }
 .centerb{
-    display:flex;
-    flex-direction:row;
-    align-items: center;
     position:absolute;
     right:15%;
     width:28.485%;
- 
 }
 .links{
     width:25.33%;
@@ -64,33 +89,29 @@
     text-align: center;
     margin-left:2%;
 }
-.links:link{
-    color:white;
-    text-decoration:none;
-}
-.links:hover{
-    color:white;
-    text-decoration: underline;
-}
 
+/* what we do not want to show above 960 px */
 .replace{
     display:none;
 }
-.searchButton{
-    display:none;
-}
-.chota{
+.smallScreen{
     display:none;
 }
 
+/* ends here */
+
+
+
 @media only screen and (max-width:960px)
 {
+    /* we need serach bar, replace and rightb over here we have to discard centerb and every element in it*/
     .centerb{
         display:none;
     }
-    .links{
+    .text{
         display:none;
     }
+    /* we have to remember that here disdplay none of chota is continued  */
     .replace{
         display: flex;
         align-items: center;
@@ -98,23 +119,16 @@
         width:max-content;
         position:absolute;
         right:17%;
-
     }
-    .btnLinks{
+    /* these are display class for less than 960px*/
+    .flex960{
         display:flex;
         align-items: center;
         justify-content: center;
-        background: none;
-        border:none;
     }
-    .btnLinks:hover{
-        border-bottom:solid 2px white;
-        box-sizing: border-box;
+    .none960{
+        display:none;
     }
-    .margins{
-        margin-right:10%;
-    }
-    
 }
 @media only screen and (max-width:800px)
 {
@@ -122,48 +136,26 @@
         width:150px;
     }
 }
-@media only screen and (max-width:580px)
-{
-    .replace{
-        right:17%;
-    }
-}
+/* here all properties of the above media query are continued only s=change is earch bar size */
 @media only screen and (max-width:540px)
 {
-    /*#searchBar{
+    #searchBar,#search,.replace,.icons,.rightb,.noUse{
         display:none;
     }
-    #search{
-        display:none;
-    }*/
-    /*.replace{
-        right:17%;
-    }*/
-    /*.searchButton{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        background: none;
-        border:none;
-    }
-    .searchButton:hover{
-        border-bottom:solid 2px white;
-        box-sizing: border-box;
-    }*/
-    #searchBar,#search,.replace,.btnlinks,.rightb,.chetan{
-        display:none;
-    }
-    .bc{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .chota{
+    /* centerb and text is already removed above hence need not be removed now */
+    .smallScreen{
         width:100%;
         display:flex;
         align-items: center;
         justify-content: space-around;
-
     }
-
+    /* these are display class for less than 540px*/
+    .flex540{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .none540{
+        display:none;
+    }
 }

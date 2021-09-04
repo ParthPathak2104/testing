@@ -8,15 +8,43 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="main.css" type="text/css" rel="stylesheet">
     <link href="feedpage.css" type="text/css" rel="stylesheet">
-    <link href="navbar2.css" type="text/css" rel="stylesheet">
     <title>BlueCub-FeedPage</title>
 </head>
 <body>
     <!--navbar -->
+    <div class="navbar backgroundNav" id="navbarBox">
+        <span class="material-icons margin2 md-light noUse none540">drag_indicator</span>
+        <input type="search" name="searchBar" id="searchBar"  class="input  margin2 backgroundw none540 borderNone">
+        <button type="button" name="search" id="search" class="button backgroundw flex borderNone none540"><span class="material-icons md-18 md-lights none540">search</span></button>
 
+        <div class="centerb margin2 flex none960 none540">
+            <a href="a.html" class="links text" id="feedPageLink">FeedPage</a>
+            <a href="b.html" class="links  text" id="dashboardLink">DashBoard</a>
+            <a href="c.html" class="links text" id="newsLink">News</a>
+        </div>
+        <div class="replace none flex960 none540">
+            <button type="button" class="button borderNone flex margin10 icon" id="" name=""><span class="material-icons md-light">code_off</span></button>
+            <button type="button" class="button borderNone flex margin10 icon" id="" name=""><span class="material-icons md-light">space_dashboard</span></button>
+            <button type="button" class="button borderNone flex margin10 icon" id="" name=""><span class="material-icons md-light">tips_and_updates</span></button>
+        </div>
+        <div class="rightb margin2 flex flex960 none540">
+            <button type="button" class="button borderNone margin2" id="settings" name="settings"><span class="material-icons md-light">settings</span></button>
+            <button type="button" class="button borderNone margin2" id="logOut" name="logOut"><span class="material-icons md-light">logout</span></button>  
+        </div>
+        <div class="smallScreen none none960">
+            <div><button type="button" class="button borderNone flex smallScreenIcon" id="" name=""><span class="material-icons margin2 md-light">drag_indicator</span></button></div>
+            <div><button type="button" class="button borderNone flex smallScreenIcon" id="" name=""><span class="material-icons md-light">search</span></button></div>
+            <div><button type="button" class="button borderNone flex smallScreenIcon" id="" name=""><span class="material-icons md-light">roofing</span></button></div>
+            <div><button type="button" class="button borderNone flex smallScreenIcon" id="" name=""><span class="material-icons md-light">space_dashboard</span></button></div>
+            <div><button type="button" class="button borderNone flex smallScreenIcon" id="" name=""><span class="material-icons md-light">tips_and_updates</span></button></div>
+            <div><button type="button" class="button borderNone flex smallScreenIcon" id="settings" name="settings"><span class="material-icons md-light">settings</span></button></div>
+            <div><button type="button" class="button borderNone flex smallScreenIcon" id="logOut" name="logOut"><span class="material-icons md-light">logout</span></button></div>
+            
+        </div>
+    </div>
     <!-- ends here-->
     <!--top bar-->
-    <div class="bara">
+    <div class="bara backgroundNav">
         <div class="pageName">FeedPage</div>
         <div class="pageName" id="lineFont">Your Freinds Have A Few Posts To Show ...</div>
     </div>
@@ -39,16 +67,15 @@
             </div>
 
            <div class="col-1 col-1-sm"></div>
+
             <div class="col-9 col-9-sm" id="TagCol">
-                <!--***<div class="container">
-                    <div class="row">
-                    <div class="col-4 col-6-sm tagCol"></div>
-                    <div class="col-4 col-6-sm tagCol"></div>
-                    <div class="col-4 hidden-sm tagCol"></div>
-                    <div class="col-4 hidden-sm tagCol"></div>
-                    <div class="col-4 hidden-sm tagCol"></div>
-                    </div>
-                </div>*****-->
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
                 <div class="box"></div>
                 <div class="box"></div>
                 <div class="box"></div>
@@ -57,17 +84,6 @@
                 <div class="box"></div>
                 <div class="box"></div>
             </div>
-           <!-- <div class="col-10 col-10-sm" id="postCol">
-                <div class="container" id="abc">
-                    <div class="row">
-                        <div class="col-6 efg"></div>
-                        <div class="col-6 efg"></div>
-                        <div class="col-6 efg"></div>
-                    </div>
-                </div>
-
-            </div>-->
-           <!-- <div class="col-10 col-10-sm "></div>-->
         </div>
 
         <!-- ends here-->
