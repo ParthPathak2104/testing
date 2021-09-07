@@ -1,0 +1,52 @@
+.postContainer{
+    border:Solid 1px black;
+    box-sizing: border-box;
+    width:100%;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+.DP{
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    background-color: cadetblue;
+}
+.bookmarkBtnBox{
+    height:50px;
+}
+
+
+.postBoxHeight{
+    height:300px;
+}
+.post{
+    background:coral;
+    border-radius:5px;
+}
+.postButtonsBox{
+    flex-direction: column;
+}
+
+.postButtons{
+    height:50px;
+    margin-right:-32%!important;
+    width:100%;
+}
+.likeBtn{
+    background:#3fc1c9;
+}
+.commentBtn{
+    background:#fce38a;
+}
+.shareBtn{
+    background:#fc5185;
+}
+.tagBtn{
+    background:purple;
+}
+.caption{
+    font-size:15px;
+}
+.material-icons.md-lights { color:grey;}
+.material-icons.md-light { color:white;}

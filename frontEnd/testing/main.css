@@ -11,8 +11,15 @@ and it contradicts something at the bottom of the page the bottom one will be fo
     align-items: center;
     justify-content: center;
 }
+.flexAlign{
+    display:flex;
+    align-items: center;
+}
 .none{
     display:none;
+}
+.block{
+    display:block;
 }
 /* margins */
 .margin2{
@@ -23,6 +30,7 @@ and it contradicts something at the bottom of the page the bottom one will be fo
 }
 /* ends here */
 /*---general styling --------------*/
+
 /* background */
 .backgroundw{
     background-color:white;
@@ -33,6 +41,9 @@ and it contradicts something at the bottom of the page the bottom one will be fo
 .backgroundb{
     background-color:#caf0f8;
 }
+.backgroundNone{
+    background:none;
+}
 /* ends here*/
 /* border styling */
 .border{
@@ -42,6 +53,9 @@ and it contradicts something at the bottom of the page the bottom one will be fo
 }
 .borderNone{
     border:none;
+}
+.borderBox{
+    box-sizing: border-box;
 }
 /* ends here  */
 /* buttons */
@@ -63,7 +77,15 @@ and it contradicts something at the bottom of the page the bottom one will be fo
     text-decoration: underline;
 }
 /* ends here */
+/* text align */
+.Center{
+    text-align: center;
+}
+/* ends here */
 /* shadows */
+.everyPageShadow{
+    box-shadow:0 0 20px grey;
+}
 .shadow{
     box-shadow:0px 0px 10px #caf0f8;
 }
@@ -277,6 +299,10 @@ this is just the styling and animation of the submit button */
     .inlineBlock960{
         display:inline-block;
     }
+    .flexAlign960{
+        display:flex;
+        align-items: center;
+    }
     /* ends here */
 }
 @media only screen and (max-width:800px)
@@ -307,5 +333,28 @@ this is just the styling and animation of the submit button */
     .inlineBlock540{
         display:inline-block;
     }
+    .flexAlign540{
+        display:flex;
+        align-items: center;
+    }
 }
 /* ends here */
+
+/* scroll bar */
+::-webkit-scrollbar{
+    width:7px;
+    height:7px;
+    border-radius: 7px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 7px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 7px;
+    background-color:rgb(41, 40, 40);
+    
+}
+::-webkit-scrollbar-track-piece {
+    height: 30px;
+}
+/*ends here*/
