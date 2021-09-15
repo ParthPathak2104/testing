@@ -1,0 +1,39 @@
+
+.createIcon{
+    height:70px;
+}
+.label{
+    color:rgb(104, 101, 101);
+    padding-left:10px;
+    font-size:15px;
+    box-sizing: border-box;
+}
+
+
+.imgBox{
+    height:300px;
+    min-width:96%;
+    
+}
+.p{
+    font-size:15px;
+    margin-top:15px;
+    color:#6990f2;
+}
+/* add to main */
+.border10{
+    border-radius:10px;
+}
+.fontwhite{
+    color:white;
+}
+.font30{
+    font-size:30px;
+}
+.paddingleft2{
+    padding-left:2%;
+}
+
+.borderradius5{
+    border-radius:5px;
+}

@@ -1,16 +1,16 @@
 .postContainer{
-    border:Solid 1px black;
-    box-sizing: border-box;
+    border:Solid 1px black;/* ##### */
+    box-sizing: border-box;/* ##### */
     width:100%;
     margin-top:20px;
-    border-radius:10px;
+    border-radius:10px;/* ##### */
 }
 
 .DP{
     height:50px;
     width:50px;
     border-radius: 25px;
-    background-color: cadetblue;
+    background-color: cadetblue;/* ##### */
 }
 .bookmarkBtnBox{
     height:50px;
@@ -21,7 +21,8 @@
     height:300px;
 }
 .post{
-    background:coral;
+    border: solid 1px black;/* ##### */
+    box-sizing: border-box;/*changed*//* ##### */
     border-radius:5px;
 }
 .postButtonsBox{

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .a{
+            position:relative;
+        }
+        .position{
+            position:absolute;
+            left:0px;
+            top:0px;
+        }
+        #top{
+            animation : animate 1s infinite;
+        }
+        @keyframes animate{
+            0%{transform:rotate(0deg);}
+            100%{ transform:rotate(180deg);}
+        }
+        #bottom{
+            animation : animates 0.1s infinite;
+        }
+        @keyframes animates{
+            0%{transform:rotate(0deg);}
+            100%{ transform:rotate(360deg);}
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <form>
+    <input type="file" name="[]" multiple>
+    </form><br><br><br><br><br>
+
+    <div class="a"><span class="material-icons postion" id="top">hourglass_bottom </span>
+    </div>
+    <div class="a"><span class="material-icons postion" id="bottom">cached</span>
+    </div>
+</body>
+</html>
