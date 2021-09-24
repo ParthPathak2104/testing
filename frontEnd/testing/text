@@ -1,0 +1,16 @@
+ <div class="row">
+                <div class="col-12 col-12-sm borderBottom"></div>
+            </div>
+
+            <div class="targetBox flex">
+                        <div class="target rtinfo center font15 ">Target</div>
+                        <div class="borderLeft rtinfo center font15">100</div>
+                    </div>
+                    <div class="stoplossBox flex">
+                        <div class="stoploss rtinfo center font15">Stoploss</div>
+                        <div class="borderLeft rtinfo center font15">100</div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col-12 col-12-sm stylebar5"></div>
+                    </div>

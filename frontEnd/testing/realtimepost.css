@@ -1,0 +1,82 @@
+.realtimewrapper{
+    width:60%;
+    margin:10px auto;
+}
+
+.rtinfo{
+    width:80px;
+}
+.infoBox{
+    height:100px;
+}
+.nameContainer{
+    width:70px;
+    justify-content: space-between;
+}
+.targetnameContainer{
+    width:60px;
+    justify-content: space-between;
+}
+.buyingnameContainer{
+    width:35px;
+    justify-content: space-between;
+}
+
+/* add to main */
+.borderBottom{
+    border-bottom:solid 1px #d3d3d3;
+}
+.borderLeft{
+    border-left:solid 1px #d3d3d3;  
+}
+.border5{
+    border-radius: 5px;
+}
+.border10{
+    border-radius: 10px;
+}
+.flexColumn{
+    flex-direction: column;
+}
+.font45{
+    font-size:45px;
+}
+.font30{
+    font-size:30px;
+}
+.font20{
+    font-size:20px;
+}
+.font15{
+    font-size:15px;
+}
+.font10{
+    font-size:10px;
+}
+.green{
+    color:rgb(13, 192, 13);
+}
+.white{
+    color:rgb(255, 255, 255);
+}
+.red{
+    color:rgb(240, 60, 60);
+}
+.material-icons.md-15 { font-size: 15px; }
+.bglightblue{
+    background: #caf0f1;
+}
+.bglightred{
+    background: rgb(241, 86, 86);
+}
+.bggreen{
+    background:  rgb(145, 228, 145);
+} 
+.color{
+    color:#6990f2;
+}
+.colorGrey{
+    color:grey;
+}
+.material-icons.md-lightss { color: #6990f2}
+/* ends */
