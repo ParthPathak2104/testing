@@ -1,0 +1,197 @@
+.headingBox{
+    width:100%;
+    height:250px;
+    
+    z-index: 10;
+    
+}
+.bgtest{
+    background-color:#63c5da;
+}
+.wrapperleft{
+    width:60%;
+    margin-left:7%;
+    box-shadow: 0 0 10px grey;
+    background-color:rgba(355,255,255,0.3);
+    margin-top: -100px;
+    border-radius: 10px;
+    height:2000px;
+    box-sizing: border-box;
+    display:inline-block;
+    z-index:20;
+}
+.wrapperRightdown{
+    width:20%;
+    height:250px;
+    box-shadow: 0 0 10px grey; 
+    background-color:white;
+    border-radius: 10px;  
+    box-sizing: border-box;
+    position: fixed;
+    right:5%;
+    top:325px;
+    animation:move 1s infinite alternate;
+    z-index: 100;
+}
+.wrapperRightupper{
+    width:20%;
+    height:65px;
+    box-sizing: border-box;
+    position: fixed;
+    right:5%;
+    top:65px;
+    animation:movess 1s infinite alternate;
+    z-index:-1;
+    justify-content: center;
+}
+.wrapperRightup{
+    width:20%;
+    height:150px;
+    background-color:white;
+    box-shadow: 0 0 10px grey; 
+    border-radius: 10px; 
+    box-sizing: border-box;
+    position: fixed;
+    right:5%;
+    top:150px;
+    animation:moves 1s infinite alternate;
+    z-index: 100;
+}
+.logoImg{
+    height:150px;
+}
+@keyframes move{
+    from {top:325px}
+    to{top:315px}
+}
+@keyframes moves{
+    from {top:150px}
+    to{top:140px}
+}
+@keyframes movess{
+    from {top:65px}
+    to{top:55px}
+}
+/* .design1{
+    width:50px;
+    height:50px;
+    background-color: rgba(248, 186, 243, 0.5);
+    position:fixed;
+    top:305px;
+    right:22%;
+    z-index:1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+} */
+.buttonList{
+    /* height:100px; */
+    /* border:solid 1px black;
+    box-sizing: border-box;
+     */
+     padding-top:0px;
+}
+.buttonListCol{
+    height:100px;
+    margin-top: 0px!important;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonListHeading{
+    color:white;
+    font-size: 50px;
+}
+.stockPriceHeading{
+    color:grey;
+    margin-left:10px;
+}
+.stockpricerow{
+    height:70px;
+}
+.fancycolor{
+    background-image: linear-gradient(to right,rgb(155, 240, 200),rgb(177, 69, 240),pink);
+    height:10px;
+    border-radius: 5px;
+}
+.stocknameheading{
+    text-align: left;
+    padding-left:3px;
+}
+.stockprice{
+    border-left:solid 0.5px #d3d3d3;
+    box-sizing: border-box;
+}
+.stylebar7{
+    height: 5px;
+    background:rgb(255, 255, 255);
+}
+.dpdown{
+    height:50px;
+    width:50px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.ss{
+    color:grey;
+    font-size: 15px;
+    
+}
+.b{
+    height:0.5px;
+    border-bottom: solid 0.5px #d3d3d3;
+    box-sizing: border-box;
+}
+.de{
+    border-right:solid 0.5px #d3d3d3;
+    box-sizing: border-box;
+}
+.credibleBox{
+    justify-content: space-between;
+    height:230px;
+}
+.crediblebarout{
+    height:175px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+    box-sizing: border-box;
+    width:30%;
+    display:flex;
+    align-items:flex-end;
+
+}
+.crediblebarin{
+    
+    height:50%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width:100%;
+    background-image: linear-gradient(to top,red,orange);
+}
+.bluecub{
+    color:grey;
+}
+@media only screen and (max-width:950px){
+    .wrapperRightupper{
+        display: none !important;;
+    }
+    .wrapperRightup{
+        display:none;
+    }
+    .wrapperRightdown{
+        display:none;
+    }
+    .wrapperleft{
+        width:86%;
+    }
+
+}
+@media only screen and (max-width:540px){
+    .wrapperleft{
+        width:100%;
+        margin-left:0%;
+    }
+    .buttonHeading{
+        display:none;
+    }
+}
